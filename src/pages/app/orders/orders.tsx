@@ -1,7 +1,7 @@
 import { useQuery } from '@tanstack/react-query'
+import { Fragment } from 'react/jsx-runtime'
 import { Helmet } from 'react-helmet-async'
 import { useSearchParams } from 'react-router-dom'
-import { Fragment } from 'react/jsx-runtime'
 import { z } from 'zod'
 
 import { getOrders } from '@/api/get-orders'
